@@ -1,0 +1,152 @@
+/* Style for the navigation bar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+    text-align: center
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+    border-right: 1px solid #555; /* Add a vertical border between items */
+  padding-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style for the hero image */
+.hero-image {
+  background-image: url('thestare.jpeg'); /* Replace with your image path */
+    
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust the height as needed */
+  position: relative;
+}
+
+/* Style for the text on top of the hero image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+/* Styles for the container */
+.container {
+  display: flex;
+}
+
+/* Style for the left box */
+.left-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+    text-align: center;
+    
+}
+
+/* Style for the right box */
+.right-box {
+  flex: 2;
+  padding: 20px;
+  background-color: #e0e0e0;
+    font-family: fantasy;
+}
+/* Style for the boxes in the about section */
+/* Styles for the boxes */
+.cont {
+  display: flex;
+}
+
+/* Styles for the individual boxes */
+.box {
+  flex: 1;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.box img {
+  width: 100%; /* Make the image fill the box */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.box-content {
+  padding: 20px 0;
+}
+/* Style for the work experience section */
+.experience-bars {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-bars .bar {
+  background-color: #818589;
+  color: black;
+  padding: 10px;
+  margin: 5px 0;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 20px auto;
+    background-color: navajowhite;
+    
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.info-box p {
+  margin: 1;
+}
+/* Style for the contact me section */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Style for the footer */
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
